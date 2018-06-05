@@ -1,0 +1,8 @@
+Troubleshoot SQL Server on Linux
+From https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-troubleshooting-guide?view=sql-server-linux-2017
+-------------------------------------
+sudo systemctl status mssql-server
+
+sudo systemctl stop mssql-server
+sudo systemctl start mssql-server
+sudo systemctl restart mssql-server
