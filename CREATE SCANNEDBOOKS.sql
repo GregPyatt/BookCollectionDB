@@ -16,7 +16,8 @@ CREATE TABLE [dbo].[ScannedBooks](
 	[ReadingPeriods] [nvarchar](50) NULL,
 	[Comments] [nvarchar](max) NULL,
 	[Summary] [nvarchar](max) NULL,
-	[CoverPath] [nvarchar](max) NULL
+	[CoverPath] [nvarchar](max) NULL, 
+	[IsAudioBook] [bit] NULL,
 ) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
 
 GO
