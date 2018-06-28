@@ -1,6 +1,6 @@
 --SELECT BookID, Title, Categories, Authors, ISBN, OKToDonate 
 --FROM ScannedBooks WHERE OKToDonate IS NULL OR OKToDonate=0
---ORDER BY Categories, Title
+--ORDER BY Categories, Title 
 
 --SELECT BookID, Title FROM ScannedBooks WHERE BookID IN (
 --719, 652, 9, 122, 526, 560, 452, 141, 139, 563, 587, 117, 
